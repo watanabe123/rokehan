@@ -2,13 +2,14 @@
     <div style="padding-top:10px; padding-bottom:5px;" class="navbar-inner">
         <!-- start _header.php -->
         <div class="container">
+        <!--
             <a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </a>
-
-            <div class="nav-collapse">
+		-->
+            <div>
                 <?php if ($navs): ?>
                     <ul class="<?php echo $type; ?> nav">
                         <?php foreach ($navs as $nav): ?>
